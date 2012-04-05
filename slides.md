@@ -276,7 +276,7 @@ Der einfachste Weg: Auschecken mit git (im Terminal)
     > ls
     examples  README.md  slides.md  tasks
 
-Oder ihr ladet sie als zip aus dem [github webinterface](https://github.com/slomo/python-for-erstis/zipball/master). 
+Oder ihr ladet sie als zip aus dem [github webinterface](https://github.com/slomo/python-for-erstis/zipball/master).
 
 
 [mehr zur Benutzung von git](https://freiquell.wordpress.com/2010/02/01/git-fur-anfanger-wie-mich)
@@ -291,7 +291,7 @@ oder [für Fans von svn und cvs](https://www.youtube.com/watch?v=4XpnKHJAok8)
 
 ---
 
-Zusätliche Hilfsmittel
+#Zusätliche Hilfsmittel
 
 ---
 # Shell in schnell
@@ -347,6 +347,7 @@ Datei anzeigen
 ---
 # Objeckt Orientierung in Python
 
+    !python
     class Basis:
 
         def toggleMetho(self): # alle Methode erhalten self als erstes
