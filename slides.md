@@ -7,6 +7,8 @@
 * 5 min Fragen
 * 60 min Programmieren
 
+Folien unter: [uves.spline.de/python](uves.spline.de/python)
+
 ---
 # Womit programmieren wir?
 
@@ -262,14 +264,125 @@ Benutzung:
 # Noch Fragen?
 
 ---
-# Lernmaterial
+# Aufgaben und Beispiele? Gibt!
+
+Der einfachste Weg: Auschecken mit git (im Terminal)
+
+    > git clone git://github.com/slomo/python-for-erstis.git
+    Cloning into python-for-erstis...
+    [...]
+    Resolving deltas: 100% (1/1), done.
+    > cd python-for-erstis
+    > ls
+    examples  README.md  slides.md  tasks
+
+Oder ihr ladet sie als zip aus dem [github webinterface](https://github.com/slomo/python-for-erstis/zipball/master). 
+
+
+[mehr zur Benutzung von git](https://freiquell.wordpress.com/2010/02/01/git-fur-anfanger-wie-mich)
+oder [für Fans von svn und cvs](https://www.youtube.com/watch?v=4XpnKHJAok8)
+
+---
+# mehr Lernmaterial
 
 * [learn python the hardway (Onlinebuch)](http://learnpythonthehardway.org/)
+* [umfassendes Onlinebuch von Galileo Press)](http://openbook.galileocomputing.de/python/index.htm)
 * [coding bat (Codingchallange)](http://codingbat.com/)
 
 ---
-# Nützliche Links
+
+Zusätliche Hilfsmittel
+
+---
+# Shell in schnell
+
+Ordner wechseln ( benutzt Tab)
+
+    > cd ordner/unterordner
+
+Wo bin ich?
+
+    > pwd
+    /tmp/python-for-erstis
+    > cd ..
+    > pwd
+    /tmp/
+    > cd ~
+    > pwd
+    /home/yves
+
+Absolute Pfade vs. relative Pfade
+
+    > pwd /home/yves/dir/dir2
+    > cd /home/yves/.cache  # mit absoluten Pfad
+    > cd ../../.cache       # mit relativem Pfad
+
+Inhalt des aktuellen Ordners anzeiegen
+
+    > ls        # welche Dateien und Ordner gibt es?
+    > ls -l     # für mehr Infos (Rechte/Benutzer)
+
+---
+# Shell in schnell
+
+Programm ausführen
+
+    > ipython               # Programme aus /bin und /usr/bin
+    > /opt/usr/bin/python   # mit vollem Pfad
+    > ./myProgramm.py       # aus lokalen Verzeichnis
+
+Pythonprogramm ausführbar machen
+
+    > chmod +x programm.py  # nicht das #! /usr/bin/python vergessen
+    > ./programm.py
+
+Datei anzeigen
+
+    > cat README.md
+    Python for erstis
+    =================
+    [...]
+
+
+---
+# Objeckt Orientierung in Python
+
+    class Basis:
+
+        def toggleMetho(self): # alle Methode erhalten self als erstes
+            self.y = self.y.upper()
+
+    class Extended(Basis): # Vererbung
+
+        def __init__(self,arg ): # Constructor
+            self.y = arg
+
+        def appendMethod(self, arg):
+            self.y += arg
+
+    ex = Extended("test") # erzeugt neues Objekt
+    print(ex.y) # Ausgabe: test
+    ex.toggleMethod()
+    print(ex.y) # Ausgabe: TEST
+    ex.appendMetho('test')
+    print(ex.y) # Ausgabe: TESTtest
+
+
+---
+# Mehr über Python
+
+## Ecosystem (Paketverwaltung)
 
 * [Python Package Index](http://pypi.python.org)
 * [Packet Installer](http://www.pip-installer.org/en/latest/index.html)
+* [Introduction to the python ecosystem](http://mirnazim.org/writings/python-ecosystem-introduction/)
 
+## Interresante Blogeiträge
+
+* [Guide to Python magic methods](http://openbook.galileocomputing.de/python/index.htm)
+* [Code Like a Pythonista: Idiomatic Python](http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html)
+
+## Misc
+
+* [webservices ausrollen auf AppEngine](https://developers.google.com/appengine/docs/whatisgoogleappengine)
+* [python webframe work](http://flask.pocoo.org/)
