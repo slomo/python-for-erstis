@@ -1,0 +1,3 @@
+Schreibe ein Program, dass solange `ja, ja, ne, ne` ausgibt bis der User
+`Halts Maul!` eingibt. Benutzt dafür eine while-Schleife (loop) und die
+`raw_input()` Funktion von python.

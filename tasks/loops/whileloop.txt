@@ -1,0 +1,7 @@
+Write a function `add` that adds `x` to all input numbers. Use a while loop
+
+An example:
+
+    >>> from whileloop import add
+    >>> add([1,2,3,4], 1)
+    [2, 3, 4, 5]

@@ -1,0 +1,16 @@
+Write a recursive function `fib()` that computes the fibonnaci sequence for `n`.
+
+An example:
+
+    >>> from fib import fib
+    >>> fib(5)
+    [1, 1, 2, 3, 5, 8]
+
+    >>> fib(0)
+    [1]
+
+    >>> fib(1)
+    [1, 1]
+
+    >>> fib(-1)
+    [1]

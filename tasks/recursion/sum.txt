@@ -1,0 +1,16 @@
+Write a recursive function `sum()` that computes the sum of a list of integers.
+
+An example:
+
+    >>> from sum import sum
+    >>> sum([1,1,1,1])
+    4
+
+    >>> sum([23,42])
+    65
+
+    >>> sum([])
+    0
+
+    >>> sum([-13])
+    -13

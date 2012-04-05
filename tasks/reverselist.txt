@@ -1,0 +1,13 @@
+Write a function `reverse()` that reverses a list.
+
+An example:
+
+    >>> from reverselist import reverse
+    >>> reverse([1,2,3,4,5])
+    [5, 4, 3, 2, 1]
+
+    >>> reverse([])
+    []
+
+    >>> reverse([1])
+    [1]

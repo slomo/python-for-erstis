@@ -1,0 +1,2 @@
+Schreibe ein Programm, dass etwas in eine Datei schreibt und dann den Inhalt der Datei ausgibt.
+Verwende Pythons io-Operationen, z.B. `open`, `file.read`, `file.write`

@@ -1,0 +1,2 @@
+Schreib eine Funktion `read()` die den Source eines Pythonprograms ausgibt.
+Benutze dazu die io-Operationen von Python z.B. `open()`

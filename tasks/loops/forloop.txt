@@ -1,0 +1,10 @@
+Write a function `pow()` that raises all input numbers to the power of `e`.
+
+A few examples:
+
+    >>> from forloop import pow
+    >>> pow([1,2,3,4], 2)
+    [1.0, 4.0, 9.0, 16.0]
+
+    >>> pow([1,2,3,4], 4)
+    [1.0, 16.0, 81.0, 256.0]

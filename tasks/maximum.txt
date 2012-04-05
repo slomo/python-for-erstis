@@ -1,0 +1,14 @@
+Write a function `max()` that returns the maximum of a list.
+
+A few examples:
+
+    >>> from maximum import max
+    >>> max([1,2,3,4,5])
+    5
+
+    >>> max([5,4,3,2,1])
+    5
+
+    >>> max([23])
+    23
+

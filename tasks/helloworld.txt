@@ -1,0 +1,7 @@
+Write a function `hello_world()` that prints "Hello World" to standard output.
+
+An example:
+
+    >>> from helloworld import hello_world
+    >>> hello_world()
+    Hello World!
