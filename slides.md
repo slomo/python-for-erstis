@@ -128,7 +128,7 @@ Für mehr Erfolg: Benutzt ipython
     [...]
     >>> list[1]
     2
-    >>> list[0] = 23;
+    >>> list[0] = 23
     >>> list
     [23, 2, 3]
     >>> list.append(4)
@@ -152,8 +152,6 @@ Für mehr Erfolg: Benutzt ipython
 # Was ist eigentlich ein Programm
 
     !python
-    # !/usr/bin/python
-    # -*- coding: utf8 -*-
 
     name = raw_input('Hallo Mensch, nenne deinen Namen')
     print ('Dein Name ist: ' + name)
@@ -170,12 +168,11 @@ Für mehr Erfolg: Benutzt ipython
 Immer nur sequentiell abarbeiten ist langweilig.
 
     !python
-    #! /usr/bin/python
     name = raw_input('Wer ist da?')
 
-    if (name == 'yves' ):
+    if name == 'yves':
         print('Hallo!')
-    elif ( name == 'philipp' )
+    elif name == 'philipp'
         print('Jo Maaaaaan!')
     else:
         print('Guten Tag!')
@@ -205,7 +202,7 @@ Weil wir code wiederverwenden wollen.
 
     !python
     def word(string):
-        return string + ", word!";
+        return string + ", word!"
 
 Beispiel:
 
@@ -221,16 +218,17 @@ Beispiel:
 
     !python
     ponies = [ 'brown', 'yellow', 'pink']
-    for(color in ponies):
+    for color in ponies:
         print('Look! A ' + color + 'pony.')
 
 [wikipedia](http://en.wikipedia.org/wiki/Loop_\(computing\)#Loops)
+
 ---
 # Schleifen (while)
 
     !python
     problem='yes'
-    while(problem != 'no'):
+    while problem != 'no':
         problem = raw_input('Got a problem?')
 
 [wikipedia](http://en.wikipedia.org/wiki/Loop_\(computing\)#Loops)
@@ -345,7 +343,7 @@ Datei anzeigen
 
 
 ---
-# Objeckt Orientierung in Python
+# Objekt Orientierung in Python
 
     !python
     class Basis:
