@@ -83,7 +83,7 @@ Für mehr Erfolg: Benutzt ipython
 
     !python
     >>> print('Hello World!')
-    >>>
+    Hello World!
 
 ---
 # Eingabe
@@ -115,9 +115,9 @@ Für mehr Erfolg: Benutzt ipython
         'name' : "foo",
         'age' : 42
     }
-    >>> person.['age']
+    >>> person['age']
     42
-    >>> person.['name'] = 'foobar'
+    >>> person['name'] = 'foobar'
 
 
 ---
@@ -154,7 +154,7 @@ Für mehr Erfolg: Benutzt ipython
     !python
 
     name = raw_input('Hallo Mensch, nenne deinen Namen')
-    print ('Dein Name ist: ' + name)
+    print('Dein Name ist: ' + name)
 
 * squentielle (nacheinander) Auflistung von Befehlen
 * interagiert mit der Welt (dem Computer) über Ein- und Ausgabe
@@ -172,7 +172,7 @@ Immer nur sequentiell abarbeiten ist langweilig.
 
     if name == 'yves':
         print('Hallo!')
-    elif name == 'philipp'
+    elif name == 'philipp':
         print('Jo Maaaaaan!')
     else:
         print('Guten Tag!')
@@ -227,14 +227,14 @@ Beispiel:
 # Schleifen (while)
 
     !python
-    problem='yes'
+    problem = 'yes'
     while problem != 'no':
         problem = raw_input('Got a problem?')
 
 [wikipedia](http://en.wikipedia.org/wiki/Loop_\(computing\)#Loops)
 
 ---
-# Endlich Module
+# Module
 
     !python
     >>> import time
